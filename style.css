@@ -28,6 +28,7 @@ body{
     margin-left: 0.8rem;
     text-align: center;
     padding:1rem 1rem;
+    margin: auto;
 }
 h2.h2{
     margin: 2rem 1rem;
@@ -37,6 +38,12 @@ h2.h2{
     padding: 0;
     text-decoration: underline;
     text-indent: 0.8rem;
+    text-shadow: 0.01px 1.001px gray;
+}
+h3.h3{
+    color:black;
+    display:inline;
+    font-weight:600;
 }
 .p.p{
     text-indent: 1rem;
@@ -73,17 +80,44 @@ img.img{
     border-bottom:1px solid white;
     border-width: 0.1rem;
     padding:1rem 1rem;
+    transition: all 0.8s;
 }
 .a:hover{
     color: lightskyblue;
+    font-size: 1.51rem;
 }
 .icon{
     font-size: 4rem;
     color: lightskyblue;
+    transition: all 1s;
+}
+.icon:hover{
+    font-size: 5rem;
 }
 .i{
     color: rgb(203, 240, 214);
 }
+#slider{
+    border: 4px solid gray;
+    position: absolute;
+    right: 25%;
+    left: 25%;
+}
+.slide{
+    width:100%;
+    max-width: 800;
+    max-height: 200;
+}
+#bitlisinf{
+    margin-top:24rem;
+    text-align: justify;
+}
+@media only screen and (min-width:576px){
+    #bitlisinf{
+        margin-top: 27rem;
+    }
+}
+
 @media only screen and (min-width:768px){
     html{
         font-size: 10.1px;
@@ -96,33 +130,23 @@ img.img{
         border:0;
         padding:1rem 0rem;
     }
-
+    #bitlisinf{
+        margin-top: 35rem;
+    }
 }
 @media only screen and (min-width:992px){
     html{
         font-size: 11px;
     }
-    .a{
-        margin: auto;
-        color:white;
-        text-decoration: none;
-        font-size: 1.3rem;
-        border:0;
-        padding:1rem 0rem;
+    #bitlisinf{
+        margin-top: 37rem;
     }
-
 }
 @media only screen and (min-width:1200px){
     html{
-        font-size: 12px;
+        font-size: 13px;
     }
-    .a{
-        margin: auto;
-        color:white;
-        text-decoration: none;
-        font-size: 1.3rem;
-        border:0;
-        padding:1rem 0rem;
+    #bitlisinf{
+        margin-top: 40rem;
     }
-
 }
