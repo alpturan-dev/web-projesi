@@ -65,6 +65,7 @@
 
         .login-form h1 {
             margin: 0 0 2.4rem 0;
+            border-bottom: 2px solid white;
         }
 
         .login-form .form-input-material {
@@ -122,7 +123,7 @@
             </div>
         </div>
     </nav>
-    <form class="login-form text-light" action="giris_sayfasi.php" method="POST">
+    <form id="login-form" class="login-form text-light" action="giris_sayfasi.php" method="POST">
         <h1>Giriş</h1>
         <div class="form-input-material">
             <label for="email">Kullanıcı adı:</label>
@@ -137,8 +138,6 @@
 
         <button type="submit" class="btn btn-ghost bg-primary fw-bold">Giriş</button>
     </form>
-
-
     <script src=" https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
         </script>
