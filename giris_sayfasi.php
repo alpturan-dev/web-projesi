@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOGIN</title>
+    <title>Giriş</title>
     <script src="js.js"></script>
+    <link rel="shortcut icon" href="img/icon.png">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
@@ -91,7 +92,7 @@
 
                 <ul class="navbar-nav">
                     <li class="nav-item mx-auto my-auto">
-                        <a href="index.html" class="a"><span class="span" title="Hakkında">&nbsp;Hakkında</span></a>
+                        <a href="index.html" class="a"><span class="span" title="Hakkımda">&nbsp;Hakkımda</span></a>
                     </li>
                     <li class="nav-item">
                         <a href="ozgecmis.html" class="a"><i class="i fas fa-address-book"></i><span
@@ -125,7 +126,7 @@
     <form class="login-form text-light bg-dark">
     <?php 
     if($_POST["email"]=="g201210003@sakarya.edu.tr" && $_POST["password"]=="g201210003"){
-        echo "<span style='font-size:20px'>GİRİŞ BAŞARILI!</span>";
+        echo "<span style='font-size:20px'>GİRİŞ BAŞARILI! HOŞGELDİNİZ.</span>";
         echo "<br><p> <button class='btn btn-ghost bg-success fw-bold'> <a class='a' href='index.html'>Ana Sayfaya Dön!</a> </button></p> ";
     }else{
         echo "<span style='font-size:20px'>GİRİŞ BAŞARISIZ!</span>";
